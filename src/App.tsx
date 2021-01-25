@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "./style.css";
+import "./App.css";
 
 interface AppProps { }
 interface AppState { }

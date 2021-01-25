@@ -9,8 +9,8 @@ enum GameResult {
     PLAYER_LOST = -1,
 }
 
-class Game {
-  computerMove: GameChoice;
+export class Game {
+  computerMove?: GameChoice;
 
   play(playerMove: GameChoice): GameResult {
     throw new Error('Not implemented!');
