@@ -2,16 +2,12 @@ import React, { Component } from 'react';
 import "./style.css";
 
 interface AppProps { }
-interface AppState {
-  name: string;
-}
+interface AppState { }
 
 export default class App extends Component<AppProps, AppState> {
-  constructor(props) {
+  constructor(props: AppProps) {
     super(props);
-    this.state = {
-      name: 'React'
-    };
+    this.state = { };
   }
 
   render() {
